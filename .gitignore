@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+*.log
+local_settings.py
+
+# Environments
+venv/
+.venv/
+
+# SQLite database
+/db.sqlite3
+
+# VS Code
+.vscode/
+
+# Node / Frontend
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.env.local
+/frontend/build/
+/frontend/dist/
+/npm-debug.log*
+/package-lock.json
+yarn.lock
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editor backups
+*.swp
+*.swo
+
+# Pycache (explicit for other folders)
+**/__pycache__/
+
+# Database
+*.sqlite3
+
+# Ignore migrations from feature branches (if you prefer)
+# api/migrations/
