@@ -38,18 +38,6 @@ python manage.py runserver
 ```
 
 
-## GitHub
-Initialize git and push to your GitHub repository:
-
-```bash
-git init
-git add .
-git commit -m "Inventory API with DRF CRUD and validation"
-git branch -M main
-git remote add origin https://github.com/<your-username>/inventory-api.git
-git push -u origin main
-```
-
 ## Frontend (Bonus)
 You can scaffold a quick Next.js app to consume this API:
 
